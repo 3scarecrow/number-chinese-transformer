@@ -1,0 +1,13 @@
+language: node_js
+
+node_js:
+  - node
+
+script: npm run test
+
+deploy:
+  - provider: npm
+    email: 3sunjunhao@gmail.com
+    api_key: $NPM_TOKEN
+    on:
+      repo: 3scarecrow/number-chinese-transformer
