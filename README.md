@@ -19,7 +19,9 @@ A tool that transform number to chinese, and provide function that mark some key
 
 转换的选项配置对象
 
-- digits: 若需要将转换后的数字填充为固定位数，可传入该值。默认根据 number 参数位数转换为对应位数
+- digits
+
+若需要将转换后的数字填充为固定位数，可传入该值。默认根据 number 参数位数转换为对应位数
 
 ```js
 transformer(6789.56)
@@ -27,3 +29,5 @@ transformer(6789.56)
 transformer(6789.56, { digits: 11 })
 // 零亿零仟零佰零拾零万陆仟柒佰捌拾玖元伍角陆分
 ```
+
+- mark
