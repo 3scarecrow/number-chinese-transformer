@@ -1,7 +1,7 @@
 {
   "name": "@3scarecrow/number-chinese-transformer",
   "version": "1.0.0",
-  "description": "A tool that transform number into chinese",
+  "description": "A tool that transform number to chinese, and provide function that mark some keywork with html",
   "publishConfig": {
     "access": "public"
   },
